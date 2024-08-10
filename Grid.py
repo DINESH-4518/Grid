@@ -162,7 +162,7 @@ class GridWorld:                               # creating grid environment
             reward = -10
             done = True
         else:
-            reward = -1
+            reward = -0.1
 
         return self.agent_position, reward, done
 
